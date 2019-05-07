@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Header from './layouts/header'
+// import Header from './layouts/header'
 import Login from './views/login'
 import Home from './views/home'
 import About from './views/about'
@@ -12,7 +12,7 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <Header />
+        {/* <Header /> */}
         <Switch>
           <Route path="/" exact component={Login} />
           <Route path="/home" component={Home} />

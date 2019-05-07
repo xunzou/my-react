@@ -1,5 +1,5 @@
-@import '~antd/dist/antd.css';
-
+/* @import '~antd/dist/antd.css'; */
+html,
 body {
   margin: 0;
   padding: 0;
@@ -8,8 +8,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  overflow: hidden;
 }
-
+#root{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: auto;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
